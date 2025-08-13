@@ -35,7 +35,7 @@ results = CLscore.predict_batch(root_cifs=["./example1.cif""./example2.cif","./e
 -  **results**: a. cifid: the name of structure; b. all_score: the CLscore predicted by 100 models (bags); c. mean_score: the mean CLscore of CLscores  
                                                                                 
 ### Citation                                          
-[**Guobin Zhao**, **Pengyu Zhao** and **Yongchul G. Chung**. 2025, *Journal of the American Chemical Society*, DOI:  10.1021/jacs.5c10126](https://pubs.acs.org/doi/10.1021/jacs.5c10126)
+[Guobin Zhao, Pengyu Zhao and Yongchul G. Chung. ***Journal of the American Chemical Society***, 2025, ASAP. DOI: 10.1021/jacs.5c10126](https://pubs.acs.org/doi/10.1021/jacs.5c10126)
 
 
 ### Acknowledgments
