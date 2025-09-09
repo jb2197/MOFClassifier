@@ -172,6 +172,7 @@ def preprocess(root_cif, atom_init_file):
             warnings.simplefilter("ignore")
             atoms = read(root_cif)
             write(root_cif, atoms)
+            crystal = Structure.from_file(root_cif)
     atom_fea = np.vstack([ari.get_atom_fea(crystal[j].specie.number)
                           for j in range(len(crystal))])
     atom_fea = torch.Tensor(atom_fea)
