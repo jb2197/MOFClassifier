@@ -20,12 +20,12 @@ setup(
         ],
         install_requires=[
                         "ase",
-                        "numpy==1.26.4",
-                        "torch==2.7.0",
-                        "Pymatgen==2024.8.9",
-                        "scikit-learn==1.3.2",
-                        "tqdm==4.67.1",
-                        "pandas==2.2.3"
+                        "numpy>=1.26.4",
+                        "torch>=2.7.0",
+                        "Pymatgen>=2024.8.9",
+                        "scikit-learn>=1.3.2",
+                        "tqdm>=4.67.1",
+                        "pandas>=2.2.3"
                         ],        
         license_files = ("LICENSE",),
         python_requires='>=3.9, <4',
