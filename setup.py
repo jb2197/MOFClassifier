@@ -20,6 +20,7 @@ setup(
         ],
         install_requires=[
                         "ase",
+                        "requests",
                         "numpy>=1.26.4",
                         "torch>=2.7.0",
                         "Pymatgen>=2024.8.9",
